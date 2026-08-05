@@ -8,6 +8,17 @@
       content="BlueStream Car Wash — premium express and full-service washes in Sparta, NJ. Spotless results, spot-free rinse, and unlimited membership plans."
     />
     <title>BlueStream Car Wash | Sparta, NJ</title>
+    <script>
+      (function () {
+        var path = window.location.pathname.replace(/\/index\.html$/, "/");
+        var marker = "/carwash";
+        var index = path.indexOf(marker);
+        var base = (index >= 0 ? path.slice(0, index + marker.length) : marker) + "/";
+        var el = document.createElement("base");
+        el.href = base;
+        document.head.insertBefore(el, document.head.firstChild);
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
