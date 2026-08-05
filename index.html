@@ -8,6 +8,25 @@
       content="MAD Junk Removal — fast, eco-friendly junk hauling in Lafayette Township, NJ 07848. Same-day service for homes and businesses across Sussex County."
     />
     <title>MAD Junk Removal | Lafayette Township, NJ</title>
+    <script>
+      (function () {
+        var path = window.location.pathname.replace(/\/index\.html$/, "/");
+        var marker = "/carwash";
+        var carwashIndex = path.indexOf(marker);
+        var base;
+
+        if (carwashIndex >= 0) {
+          base = path.slice(0, carwashIndex + marker.length) + "/";
+        } else {
+          base = path.endsWith("/") ? path : path.replace(/\/[^/]*$/, "/");
+          if (!base) base = "/";
+        }
+
+        var el = document.createElement("base");
+        el.href = base;
+        document.head.insertBefore(el, document.head.firstChild);
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
