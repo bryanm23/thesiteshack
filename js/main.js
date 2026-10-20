@@ -21,7 +21,7 @@
 
   document.querySelector(".contact__form").addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Thanks! We'll be in touch shortly with your free quote.");
+    alert("Thanks! We'll send a Site Shack quote shortly.");
     e.target.reset();
   });
 })();
