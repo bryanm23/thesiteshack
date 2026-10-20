@@ -5,23 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="MAD Junk Removal — fast, eco-friendly junk hauling in Lafayette Township, NJ 07848. Same-day service for homes and businesses across Sussex County."
+      content="The Site Shack builds custom websites for local small businesses. Design, launch, and ongoing care from a neighbor—not a far-away agency."
     />
-    <title>MAD Junk Removal | Lafayette Township, NJ</title>
+    <title>The Site Shack | Websites for Local Small Businesses</title>
     <script>
       (function () {
         var path = window.location.pathname.replace(/\/index\.html$/, "/");
-        var marker = "/carwash";
-        var carwashIndex = path.indexOf(marker);
-        var base;
-
-        if (carwashIndex >= 0) {
-          base = path.slice(0, carwashIndex + marker.length) + "/";
-        } else {
-          base = path.endsWith("/") ? path : path.replace(/\/[^/]*$/, "/");
-          if (!base) base = "/";
-        }
-
+        var base = path.endsWith("/") ? path : path.replace(/\/[^/]*$/, "/");
+        if (!base) base = "/";
         var el = document.createElement("base");
         el.href = base;
         document.head.insertBefore(el, document.head.firstChild);
@@ -30,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
@@ -41,10 +32,11 @@
         <a href="#" class="logo">
           <span class="logo__icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2m3 0v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6h14z" />
+              <path d="M3 10.5L12 3l9 7.5V21a1 1 0 01-1 1H4a1 1 0 01-1-1V10.5z" />
+              <path d="M9 22V12h6v10" />
             </svg>
           </span>
-          MAD
+          The Site Shack
         </a>
 
         <nav class="nav" id="nav" aria-label="Main navigation">
@@ -75,31 +67,32 @@
       <section class="hero">
         <div class="hero__bg" aria-hidden="true"></div>
         <div class="container hero__content">
-          <p class="hero__eyebrow">Lafayette Township, NJ · 07848</p>
+          <p class="hero__eyebrow">Local websites for local businesses</p>
           <h1 class="hero__title">
-            Reclaim your space.<br />
-            <span class="hero__title-accent">We haul the rest.</span>
+            A shop-built website<br />
+            <span class="hero__title-accent">for your small business.</span>
           </h1>
           <p class="hero__subtitle">
-            From single items to full cleanouts — MAD Junk Removal handles the heavy lifting
-            with upfront pricing and eco-friendly disposal across Sussex County.
+            The Site Shack designs and builds websites for shops, trades, and
+            neighborhood brands—so customers nearby can find you, trust you, and
+            get in touch.
           </p>
           <div class="hero__actions">
-            <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
-            <a href="tel:+15551234567" class="btn btn--ghost btn--lg">Call Now</a>
+            <a href="#contact" class="btn btn--primary btn--lg">Start a Project</a>
+            <a href="tel:+15551234567" class="btn btn--ghost btn--lg">Call the Shop</a>
           </div>
           <ul class="hero__stats">
             <li>
-              <strong>15 min</strong>
-              <span>Average response</span>
+              <strong>2–4 wks</strong>
+              <span>Typical launch</span>
             </li>
             <li>
-              <strong>4.9★</strong>
-              <span>Customer rating</span>
+              <strong>Local</strong>
+              <span>Meet in person</span>
             </li>
             <li>
-              <strong>70%</strong>
-              <span>Items recycled</span>
+              <strong>100%</strong>
+              <span>Built for small biz</span>
             </li>
           </ul>
         </div>
@@ -108,45 +101,48 @@
       <section class="section" id="services">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">What we remove</h2>
+            <h2 class="section__title">What we build</h2>
             <p class="section__subtitle">
-              Residential, commercial, and construction debris — no job too big or small.
+              Everything a local business needs online—without the agency runaround.
             </p>
           </div>
           <div class="grid grid--3">
             <article class="card">
               <div class="card__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-                  <polyline points="9 22 9 12 15 12 15 22" />
+                  <rect x="3" y="4" width="18" height="14" rx="2" />
+                  <path d="M8 21h8M12 18v3" />
                 </svg>
               </div>
-              <h3 class="card__title">Residential</h3>
+              <h3 class="card__title">Custom websites</h3>
               <p class="card__text">
-                Furniture, appliances, yard waste, garage cleanouts, and estate clearing.
+                Clear, mobile-friendly sites that show your work, hours, and how to
+                reach you—built around your brand, not a generic template.
               </p>
             </article>
             <article class="card">
               <div class="card__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <rect x="2" y="7" width="20" height="14" rx="2" />
-                  <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="M21 21l-4.3-4.3" />
                 </svg>
               </div>
-              <h3 class="card__title">Commercial</h3>
+              <h3 class="card__title">Local search</h3>
               <p class="card__text">
-                Office furniture, retail fixtures, warehouse cleanouts, and property management.
+                Google Business, maps, and on-page SEO so neighbors searching for
+                what you do actually find your shop first.
               </p>
             </article>
             <article class="card">
               <div class="card__icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 </svg>
               </div>
-              <h3 class="card__title">Construction</h3>
+              <h3 class="card__title">Care &amp; updates</h3>
               <p class="card__text">
-                Drywall, lumber, flooring, renovation debris, and demolition waste removal.
+                Hosting, security, and small changes when your menu, hours, or
+                services change. We stay nearby after launch.
               </p>
             </article>
           </div>
@@ -157,28 +153,28 @@
         <div class="container">
           <div class="section__header">
             <h2 class="section__title">How it works</h2>
-            <p class="section__subtitle">Three simple steps to a clutter-free space.</p>
+            <p class="section__subtitle">Three simple steps from handshake to homepage.</p>
           </div>
           <ol class="steps">
             <li class="step">
               <span class="step__number">1</span>
               <div class="step__content">
-                <h3>Request a quote</h3>
-                <p>Call, text, or fill out our form. Send photos for an instant estimate.</p>
+                <h3>Talk it through</h3>
+                <p>Coffee, a call, or a shop visit. We learn your business, customers, and goals.</p>
               </div>
             </li>
             <li class="step">
               <span class="step__number">2</span>
               <div class="step__content">
-                <h3>We show up on time</h3>
-                <p>Our crew arrives in a marked truck, ready to load everything for you.</p>
+                <h3>Design &amp; build</h3>
+                <p>You review drafts, we refine copy and layout, then we code a fast, clean site.</p>
               </div>
             </li>
             <li class="step">
               <span class="step__number">3</span>
               <div class="step__content">
-                <h3>Pay & relax</h3>
-                <p>Upfront pricing with no hidden fees. We donate and recycle whenever possible.</p>
+                <h3>Launch &amp; tend</h3>
+                <p>We go live, set up contact forms, and keep the site current as you grow.</p>
               </div>
             </li>
           </ol>
@@ -189,48 +185,50 @@
         <div class="container">
           <div class="split">
             <div class="split__content">
-              <h2 class="section__title">Why choose MAD</h2>
+              <h2 class="section__title">Why The Site Shack</h2>
               <p class="section__subtitle section__subtitle--left">
-                Based in Lafayette Township, NJ — we're a local crew that treats your property like our own.
+                We’re a local workshop for small businesses—not a distant agency
+                that vanishes after the invoice.
               </p>
               <ul class="features">
                 <li class="feature">
                   <span class="feature__check" aria-hidden="true">✓</span>
                   <div>
-                    <strong>Upfront pricing</strong>
-                    <p>No surprise charges. You approve the price before we load.</p>
+                    <strong>Built for small shops</strong>
+                    <p>Pricing and scope that fit a local business, not a corporate rollout.</p>
                   </div>
                 </li>
                 <li class="feature">
                   <span class="feature__check" aria-hidden="true">✓</span>
                   <div>
-                    <strong>Licensed & insured</strong>
-                    <p>Fully bonded crew for your peace of mind.</p>
+                    <strong>You can meet us</strong>
+                    <p>Face-to-face reviews, phone support, and someone who knows the area.</p>
                   </div>
                 </li>
                 <li class="feature">
                   <span class="feature__check" aria-hidden="true">✓</span>
                   <div>
-                    <strong>Eco-conscious disposal</strong>
-                    <p>We donate usable items and recycle materials responsibly.</p>
+                    <strong>Plain-language process</strong>
+                    <p>No jargon. You always know what we’re building and what it costs.</p>
                   </div>
                 </li>
                 <li class="feature">
                   <span class="feature__check" aria-hidden="true">✓</span>
                   <div>
-                    <strong>Same-day availability</strong>
-                    <p>Most jobs scheduled within 24 hours of your call.</p>
+                    <strong>Made to convert</strong>
+                    <p>Clear calls to action, click-to-call, maps, and forms that actually work.</p>
                   </div>
                 </li>
               </ul>
             </div>
             <div class="split__visual" aria-hidden="true">
               <div class="visual-card">
-                <div class="visual-card__badge">Free estimates</div>
+                <div class="visual-card__badge">Local &amp; hands-on</div>
                 <p class="visual-card__quote">
-                  "They cleared our entire basement in under two hours. Professional, friendly, and fairly priced."
+                  “They listened like a neighbor and launched a site that finally
+                  looks like our shop. New customers mention it every week.”
                 </p>
-                <p class="visual-card__author">— Sarah M., Homeowner</p>
+                <p class="visual-card__author">— Maya P., bakery owner</p>
               </div>
             </div>
           </div>
@@ -240,24 +238,24 @@
       <section class="section section--alt" id="reviews">
         <div class="container">
           <div class="section__header">
-            <h2 class="section__title">What customers say</h2>
-            <p class="section__subtitle">Trusted by homeowners and businesses across Lafayette Township and Sussex County.</p>
+            <h2 class="section__title">What local owners say</h2>
+            <p class="section__subtitle">Trusted by shops, trades, and service businesses around town.</p>
           </div>
           <div class="grid grid--3">
             <blockquote class="review">
               <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>"Showed up on time, gave a fair price, and left the driveway spotless. Will use again."</p>
-              <footer>— James T.</footer>
+              <p>"We used to send people to a Facebook page. Now we have a real site, and bookings are up."</p>
+              <footer>— James T., HVAC</footer>
             </blockquote>
             <blockquote class="review">
               <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>"Handled our office move-out over a weekend. Zero hassle and great communication."</p>
-              <footer>— Metro Design Co.</footer>
+              <p>"They met us after hours, explained every step, and had us live before our busy season."</p>
+              <footer>— Riverside Salon</footer>
             </blockquote>
             <blockquote class="review">
               <div class="review__stars" aria-label="5 out of 5 stars">★★★★★</div>
-              <p>"Best junk removal experience I've had. They even swept up after loading the truck."</p>
-              <footer>— Linda R.</footer>
+              <p>"Looks custom, loads fast on phones, and I can actually update hours without a panic."</p>
+              <footer>— Linda R., café</footer>
             </blockquote>
           </div>
         </div>
@@ -267,22 +265,23 @@
         <div class="container">
           <div class="contact">
             <div class="contact__info">
-              <h2 class="section__title">Get your free quote</h2>
+              <h2 class="section__title">Let’s build your site</h2>
               <p class="section__subtitle section__subtitle--left">
-                Tell us what you need removed and we'll get back to you within the hour.
+                Tell us about your business. We’ll follow up with a straightforward
+                plan and a fair quote.
               </p>
               <div class="contact__details">
                 <a href="tel:+15551234567" class="contact__link">
                   <span aria-hidden="true">📞</span> (555) 123-4567
                 </a>
-                <a href="mailto:hello@madjunk.com" class="contact__link">
-                  <span aria-hidden="true">✉️</span> hello@madjunk.com
+                <a href="mailto:hello@thesiteshack.com" class="contact__link">
+                  <span aria-hidden="true">✉️</span> hello@thesiteshack.com
                 </a>
                 <p class="contact__hours">
-                  <span aria-hidden="true">📍</span> Lafayette Township, NJ 07848
+                  <span aria-hidden="true">📍</span> Serving small businesses locally
                 </p>
                 <p class="contact__hours">
-                  <span aria-hidden="true">🕐</span> Mon–Sat: 7am – 7pm
+                  <span aria-hidden="true">🕐</span> Mon–Fri: 9am – 6pm
                 </p>
               </div>
             </div>
@@ -302,15 +301,15 @@
                 <input type="email" name="email" placeholder="you@example.com" />
               </label>
               <label class="form-field">
-                <span>What needs to go?</span>
+                <span>What’s your business?</span>
                 <textarea
                   name="message"
                   rows="4"
-                  placeholder="Describe the items or upload details — e.g. couch, mattress, garage cleanout..."
+                  placeholder="Tell us what you do, whether you have a site today, and what you want customers to do when they find you."
                   required
                 ></textarea>
               </label>
-              <button type="submit" class="btn btn--primary btn--lg btn--full">Request Quote</button>
+              <button type="submit" class="btn btn--primary btn--lg btn--full">Request a Quote</button>
             </form>
           </div>
         </div>
@@ -320,15 +319,15 @@
     <footer class="footer">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <a href="#" class="logo logo--footer">MAD Junk Removal</a>
-          <p>Fast, friendly junk removal serving Lafayette Township, NJ 07848 and surrounding areas.</p>
+          <a href="#" class="logo logo--footer">The Site Shack</a>
+          <p>Custom websites for local small businesses—built with care, close to home.</p>
         </div>
         <div class="footer__links">
           <a href="#services">Services</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#contact">Contact</a>
         </div>
-        <p class="footer__copy">&copy; 2026 MAD Junk Removal · Lafayette Township, NJ 07848. All rights reserved.</p>
+        <p class="footer__copy">&copy; 2026 The Site Shack. All rights reserved.</p>
       </div>
     </footer>
 
